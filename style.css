@@ -1,0 +1,95 @@
+.col-header {
+	font-style: italic;
+	font-weight: normal;
+}
+td, th {
+	border: solid #54585e 0.5px;
+	text-align: center;
+	border-radius: 1px;
+}
+th {
+	padding: 5px;
+}
+table {
+	margin: auto;
+	border: solid #54585e 2px;
+	border-top: 0px;
+	border-radius: 4px;
+	border-top-right-radius: 0px;
+	border-top-left-radius: 0px;
+	color: #091321;
+	background-color: #adbdd6;
+}
+caption {
+	padding: 5px;
+	border: solid #54585e 2px;
+	border-bottom: 0px;
+	border-radius: 4px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom: 0px;
+	background-color: #adbdd6;
+}
+
+h4{
+	margin: auto 10%;
+	padding-top: 50px;
+}
+
+ul {
+	margin: auto 10%;
+	padding: 10px;
+}
+
+#footer1{
+	colspan: 2;
+}
+
+tr:nth-of-type(even) {
+	background-color: #adbdd6;
+}
+tr:nth-of-type(even) td {
+	background-color: #adbdd6;
+}
+
+tr:nth-of-type(odd) {
+	background-color: #99eeff;
+}
+
+section {
+
+}
+
+form {
+	padding: 10px;
+	border: solid #54585e 1px;
+	display: inline-block;
+}
+
+.text, .num {
+	margin: auto;
+	padding: 10px;
+}
+
+.outer-content {
+	width: 75%;
+	margin: 20px;
+	margin-left: 0px;
+	background-color: pink;
+}
+
+.inner-content {
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: blue;
+}
+div {
+	margin: 10px;
+	padding: 2px;
+}
+
+legend {
+	padding: 1em;
+	padding-left: 0em;
+}
